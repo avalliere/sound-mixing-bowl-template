@@ -42,14 +42,23 @@ $(document).ready(function() {
     // AudioImport_p5("./audio/clap@2/" + ("0" + getRandomInt(1, 2)).slice(-2) + ".mp3"),
 
     //sounds page ==> 7
-    AudioImport("./audio/01.mp3"),
-    AudioImport("./audio/02.mp3"),
-    AudioImport("./audio/03.mp3"),
-    AudioImport("./audio/04.mp3"),
-    AudioImport("./audio/05.mp3"),
-    AudioImport("./audio/06.mp3"),
-    AudioImport("./audio/07.mp3"),
-    //
+    // AudioImport("./audio/01.mp3"),
+    // AudioImport("./audio/02.mp3"),
+    // AudioImport("./audio/03.mp3"),
+    // AudioImport("./audio/04.mp3"),
+    // AudioImport("./audio/05.mp3"),
+    // AudioImport("./audio/06.mp3"),
+    // AudioImport("./audio/07.mp3"),
+
+    // AudioImport("./audio/sirens.wav"),
+    AudioImport("./audio/thunder1.wav"),
+    AudioImport("./audio/siren.wav"),
+    AudioImport("./audio/wind.wav"),
+    AudioImport("./audio/wickedwitch.wav"),
+    AudioImport("./audio/thunder2.wav"),
+    AudioImport("./audio/thunder3.wav"),
+    AudioImport("./audio/tornado-watch.wav"),
+        //
   ]).then(function(imports) {
 
     //imgs
